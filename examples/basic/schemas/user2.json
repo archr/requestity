@@ -1,0 +1,5 @@
+{
+  "name": "users2",
+  "method": "get",
+  "path": "/users2"
+}

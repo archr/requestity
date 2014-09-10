@@ -1,0 +1,17 @@
+{
+  "name": "bar",
+  "method": "POST",
+  "path": "/users",
+  "params": {
+    "foo": "string",
+    "bar": {
+      "type": "string",
+      "required": true
+    },
+    "baz": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "parentNode": "data"
+}
