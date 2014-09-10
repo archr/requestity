@@ -1,12 +1,12 @@
-### requestity
+# requestity
 
 ## Motivación
 Despúes de tener que consumir suficientes web services de terceros que cambian constatemente durante su fase de desarrollo decidi generar una libreria donde a partir de objectos json/js se puedan generar todas las peticiones requeridas.
 
 ## Pros
 
-Escalable: Se pueden generar mas esquemas y hacer debugging no sera un problema
-Versionado: Se pueden tener diferentes versiones de los esquemas sin dolores de cabeza.
+- Escalable: Se pueden generar mas esquemas y hacer debugging no sera un problema
+- Versionado: Se pueden tener diferentes versiones de los esquemas sin dolores de cabeza.
 
 
 ## Instalación
