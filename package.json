@@ -1,5 +1,5 @@
 {
-  "name": "requestify",
+  "name": "requestity",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/archr/requestify"
+    "url": "https://github.com/archr/requestity"
   },
   "author": "Antonio Sandoval",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/archr/requestify/issues"
+    "url": "https://github.com/archr/requestity/issues"
   },
-  "homepage": "https://github.com/archr/requestify",
+  "homepage": "https://github.com/archr/requestity",
   "devDependencies": {
     "mocha": "~1.21.4",
     "chai": "~1.9.1",
