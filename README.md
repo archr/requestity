@@ -1,18 +1,25 @@
 ### requestity
 
-> Request with json configurations
+## Motivación
+Despúes de tener que consumir suficientes web services de terceros que cambian constatemente durante su fase de desarrollo decidi generar una libreria donde a partir de objectos json/js se puedan generar todas las peticiones requeridas.
 
-## Instalation
+## Pros
+
+Escalable: Se pueden generar mas esquemas y hacer debugging no sera un problema
+Versionado: Se pueden tener diferentes versiones de los esquemas sin dolores de cabeza.
+
+
+## Instalación
 
 ```shell
 npm install requestity
 ```
 
-## Overview
+## Uso
 
-### json - schema
+### json - js - schema
 
-Schemas are defined  as:
+Los esquemas pueden ser .json o .js que tendran una estructura parecida a esta:
 
 ```json
 {
@@ -34,9 +41,9 @@ Schemas are defined  as:
 }
 ```
 
-### connections
+### Conexiónes
 
-You can define one or more connections to endpoints.
+Puedes definir una o mas conexiones:
 
 ```js
 var request = requre('requestity');
