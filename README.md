@@ -41,7 +41,7 @@ You can define one or more connections to endpoints.
 ```js
 var request = requre('requestity');
 
-var webserver1 = request.configure({
+var webserver1 = request.configure('webserver1', {
   name: 'webserver1'
   baseUrl: "http:localhost:3000/api",
   schemaDir: '/path/to/schemas',
@@ -52,7 +52,7 @@ var webserver1 = request.configure({
   parentNode: 'response'
 });
 
-var webserver2 = request.configure({
+var webserver2 = request.configure('webserver2', {
   name: 'webserver2'
   schemaDir: '/path/to/schemas',
   url: "http://example.com"
