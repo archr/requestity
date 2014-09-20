@@ -38,6 +38,32 @@ describe('#requestity', function () {
     });
   });
 
+  it('should create a request to user', function (done){
+    var url = {
+      name:'user',
+      params: {
+        userId: 1
+      }
+    };
+    api.go(url, function (err, result){
+      result.user.username.should.exist;
+      done();
+    });
+  });
+
+  it('should create a request to cats', function (done){
+    var url = {
+      name:'cat',
+      params: {
+        catId: 1
+      }
+    };
+    api.go(url, {size: '10'}, function (err, result){
+      result.size.should.exits;
+      done();
+    });
+  });
+
 
 });
 

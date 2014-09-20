@@ -1,0 +1,5 @@
+{
+  "name": "urlparams",
+  "method": "POST",
+  "path": "/users/:userId"
+}

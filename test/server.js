@@ -13,6 +13,19 @@ function Server () {
       }
     });
   });
+
+  app.post('/users/1', function (req, res) {
+    res.json({
+      success: true,
+      user: {
+        username: 'archr'
+      }
+    });
+  });
+
+  app.post('*', function (req, res){
+    res.json(req.body);
+  });
 }
 
 Server.prototype.listen = function (port) {

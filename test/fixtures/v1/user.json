@@ -1,0 +1,5 @@
+{
+  "name": "user",
+  "method": "POST",
+  "path": "/users/:userId"
+}

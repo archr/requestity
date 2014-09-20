@@ -1,0 +1,5 @@
+{
+  "name": "cat",
+  "method": "POST",
+  "path": "/cats/:catId"
+}
