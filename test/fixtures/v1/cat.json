@@ -1,5 +1,15 @@
 {
   "name": "cat",
   "method": "POST",
-  "path": "/cats/:catId"
+  "path": "/cats/:catId",
+  "params": {
+    "name": {
+      "type": "string"
+    },
+    "username": "string",
+    "type": {
+      "type": "string",
+      "default": "animal"
+    }
+  }
 }
