@@ -1,6 +1,6 @@
 {
   "name": "requestity",
-  "version": "0.0.6",
+  "version": "0.0.61",
   "description": "json + request",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
     "express": "~4.9.0"
   },
   "dependencies": {
-    "debug": "~2.0.0",
-    "superagent": "~0.18.2"
+    "debug": "2.0.0",
+    "superagent": "0.18.2"
   }
 }
