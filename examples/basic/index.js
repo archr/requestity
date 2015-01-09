@@ -3,7 +3,15 @@ var requestity = require('../../');
 
 requestity.configure('ws', {
   baseUrl: 'http://localhost:4000',
-  schemaDir: __dirname + '/schemas'
+  schemaDir: __dirname + '/schemas',
+  preRequest: function (data) {
+    console.log('preRequest');
+    console.log(data);
+  },
+  postRequest: function (data) {
+    console.log('postRequest');
+    console.log(data);
+  }
 });
 
 require('./foo')(app);

@@ -1,6 +1,6 @@
 {
   "name": "requestity",
-  "version": "0.0.62",
+  "version": "0.0.64",
   "description": "json + request",
   "main": "index.js",
   "scripts": {
